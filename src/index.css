@@ -96,15 +96,30 @@ li button:hover {
   padding: 0;
 }
 
+/* ... (previous CSS styles) ... */
+
 .singleTodo {
-  border-radius: 50px;
-  background-color: rgb(72, 230, 132);
-  margin: 10px 0;
   display: flex;
-  width: 450px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todoItem {
+  display: flex;
   align-items: center;
 }
 
-.todoText {
-  flex: 1;
+.checkbox {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+  color: #634242;
 }
