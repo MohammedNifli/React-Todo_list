@@ -13,6 +13,8 @@ function App() {
   <div className='App'>
     <div className='container'>
       <h1 id='heading'>Todo List App</h1>
+
+      
       <form action="" className='todoForm'>
         <input type="text" />
         <button>Go</button>
@@ -20,7 +22,7 @@ function App() {
       <ul className='allTodo'>
         
         <li className='singleTodo'> 
-        
+
           <span className='todoText'>Learn React</span>
           <button>Edit</button>
           <button>Delete</button>
