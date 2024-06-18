@@ -8,6 +8,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [editId, setEditId] = useState(0);
   const [checkedTodos, setCheckedTodos] = useState([]);
+  console.log("delete cheyth")
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -21,7 +22,7 @@ function App() {
     }
     if (todo !== "") {
       setTodos([{ id: uuidv4(), todo }, ...todos]);
-      setTodo(""); // Clear the input field after adding a todo
+      setTodo("");
     }
   };
 
@@ -88,3 +89,4 @@ function App() {
 }
 
 export default App
+ 
